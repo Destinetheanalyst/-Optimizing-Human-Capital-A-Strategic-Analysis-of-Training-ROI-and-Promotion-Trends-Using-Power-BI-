@@ -173,3 +173,7 @@ The dataset was extracted from IBM analytics platform.
 
 5. ##### **Unclear Timeframe**
    The timeframe of data collection (monthly, quarterly, or yearly) is not specified, making it difficult to identify trends or seasonality in training outcomes and promotions.
+
+ ### Conclusion
+---
+The Power BI dashboard highlights critical patterns in training efficiency, departmental performance, and promotion outcomes. DYKE INTERGRATED can leverage these insights to **optimize HR strategies**, ensure **cost-effective training**, and **foster talent development** organization-wide.
