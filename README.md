@@ -157,3 +157,19 @@ The dataset was extracted from IBM analytics platform.
 4. Consider **performance-based training budget allocation** — shifting focus to high-impact departments.
 
 
+### Limitations
+ ---
+1. ##### **Limited Scope of Variables**
+   The analysis focuses on core metrics such as training cost, promotion rate, and score improvements. Other important HR factors like employee satisfaction, engagement, retention rate, or qualitative feedback were not considered.
+
+2. ##### **Training Effectiveness Not Fully Captured**
+   The improvement score is quantitative and may not reflect behavioral changes or practical, on-the-job performance. The long-term impact of training is not assessed.
+
+3. ##### **Lack of Clarity on Promotion Criteria**
+   The report assumes a connection between training and promotion but does not clarify the actual criteria for promotions. Factors like tenure, manager recommendation, or performance evaluations may also influence promotions.
+
+4. ##### **Data Granularity Constraints**
+   The data is aggregated at the department level, which may mask insights from individual or team-level performance. High performers or underperformers may be hidden within averages.
+
+5. ##### **Unclear Timeframe**
+   The timeframe of data collection (monthly, quarterly, or yearly) is not specified, making it difficult to identify trends or seasonality in training outcomes and promotions.
