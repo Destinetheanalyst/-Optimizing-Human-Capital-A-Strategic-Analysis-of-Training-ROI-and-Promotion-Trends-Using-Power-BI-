@@ -116,11 +116,36 @@ The dataset was extracted from IBM analytics platform.
   
 ![HR Dashboard 2](https://github.com/user-attachments/assets/d0a23232-69c6-4ab2-99f6-b7d85266eb40)
 
-#### Overview
-- Employee Overview: The company has a total of 1470 staff. With 237 attrition, an attrition rate of 16% and an active employee of 1233 and 87% retention rate.
-- Overview per Gender: There are 882 Males and 588 Females. With a rate of 60% and 40% respectively.
-- Overview per Age Band: Staff between the ages of 25-34 are the largest in the company, while staff 55 and above are the least in the company in terms of count.
-- Overview per Satisfaction: Statisfaction level was graded into Satisfied, Dissatisfied, Very Statisfied and Very Dissatisfied. WIth employee count ranging from 459 for Very Satisfied Staff, 442 for Satisfied Staff, 289 for Very Dissatisfied Staff and 280 for Dissatisfied Staff.
+#### Performance Overview
+
+#### Training Distribution
+
+#### Trained Employees (By Department)
+- Finance: 378  
+- Sales: 366  
+- HR: 362  
+- Marketing: 364  
+- IT: 358  
+
+####  Untrained Employees
+- IT: 254 (21.67%)  
+- Sales: 240 (20.48%)  
+- HR: 226  
+- Marketing: 201  
+- Finance: 190  
+
+### Performance Scores (Before vs After Training)
+
+| Department | Pre-Training Score | Post-Training Score | Improvement |
+|------------|--------------------|---------------------|-------------|
+| Finance    | 69.27               | **74.9**             | +5.63       |
+| IT         | 69.39               | 74.55                | +5.16       |
+| HR         | 69.20               | 74.55                | +5.35       |
+| Marketing  | **74.43**           | 69.46                | **−4.97**   |
+| Sales      | 74.20               | 69.36                | −4.84       |
+
+📌 **Insight**: While most departments showed improvement, **Marketing and Sales experienced post-training performance drops**, highlighting a **potential mismatch in training content or execution**.
+
 
 
   
