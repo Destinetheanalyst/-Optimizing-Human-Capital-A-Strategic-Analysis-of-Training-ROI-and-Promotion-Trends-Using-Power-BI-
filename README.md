@@ -15,7 +15,7 @@
 
 ### Project Objectives 
 ---
-The primary goal of this project is to analyze the key factors contributing to employee attrition and develop insights that can help Human Resource (HR) professionals implement data-driven strategies to improve employee retention.
+This report presents an HR analytics dashboard built using Power BI for **DYKE INTERGRATED**. The focus is to evaluate the **effectiveness of training programs**, **employee promotions**, and **performance improvements** across key departments: Finance, HR, IT, Marketing, and Sales.
 
 
 
