@@ -87,12 +87,32 @@ The dataset was extracted from IBM analytics platform.
 
 ### Results
 ---
-#### Attrition
-- Attrition Rate: The overall attrition rate is 16%, with a total of 237 employees. This varies via departments like Sales, Human Resources, and Research & Development. Research & Development has the highest numbers of departed staff.
-- Employee Satisfaction per attrition: Satisfaction levels vary across departments, with Research & Development having relatively higher un-satisfaction rates, whereas Human Resources and Sales have a mix of satisfaction levels.
-- Employee Performance per attrition: Performance levels varies across departments. 200 staff across various department.
-- Attrition per Age Band: Staff between the ages of 25-34, has the highest attrition count, while staff with ages 55 & above has the least attrition count
-- Attrition per Job Role & Gender: Attrition varies in respect to job role. Laboratory Technician has an attrition count of 62, being the highest, while Research director has the least attrition count with 2. Job roles like Human Resource and Manufacturing Director has 12 and 10 attrition count respectively. Attrition also varies with gender with count of 150 Male and 87 Female, and rate of 63% and 37% respectively.
+#### Promotion Overview
+
+#### General Insights
+
+- **Promotion Count**: 521 employees were promoted, representing **17.37%** of the total workforce.
+- **Training Participation**:  
+  - **Yes**: 1,828 employees (61%)  
+  - **No**: 1,172 employees (39%)
+
+- **Training ROI Concerns**:  
+  - Only **28.5% of the training budget** (261K) went to employees promoted within 6 months.  
+  - **71.5% of the budget** (654K) was spent on employees who were not promoted — indicating a potential **gap in post-training evaluation or application**.
+
+#### Departmental Promotion & Training Cost Breakdown
+
+| Department | Promotion Count | Total Employees | Avg Improvement Score | Training Cost |
+|------------|------------------|------------------|------------------------|----------------|
+| Sales      | 113              | 613              | 5                      | 181K           |
+| HR         | 107              | 584              | 5                      | 179K           |
+| IT         | 107              | 618              | 5                      | 189K           |
+| Marketing  | 104              | 620              | 5                      | 183K           |
+| Finance    | 90               | 565              | **6** (highest)        | 182K           |
+
+🔍 **Observation**: Finance had the **highest score improvement** with a similar budget, indicating **more effective training strategies**.
+
+---
   
 ![HR Dashboard 2](https://github.com/user-attachments/assets/d0a23232-69c6-4ab2-99f6-b7d85266eb40)
 
