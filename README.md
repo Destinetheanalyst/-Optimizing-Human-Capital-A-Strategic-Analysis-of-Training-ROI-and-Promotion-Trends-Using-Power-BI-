@@ -151,9 +151,9 @@ The dataset was extracted from IBM analytics platform.
   
 ### Recommendations
 ---
-- Implement Retention Programs: Focus on developing and implementing retention strategies, especially in high-attrition departments like Sales and Technical. This could include career development opportunities, mentorship programs, and clear career advancement paths.
-- Enhance Employee Engagement: Address the varying levels of employee satisfaction by conducting regular surveys and feedback sessions. Use this data to tailor engagement initiatives that cater to the specific needs of each department.
-- Promote Career Development: Increase opportunities for employee promotions by investing in training and development programs. Ensure that employees see a clear pathway to growth within the company.
-- Balance Compensation and Workload: Review and adjust compensation and workload to ensure fairness and equity across departments.
-- Strengthen Safety Measures: Even though work accidents are minimal, continuously reinforce safety protocols and provide regular training to maintain a safe work environment.
+1. **Reassess Training Content** for Marketing and Sales to align better with performance objectives.
+2. **Expand Training Coverage** in IT and Sales to reduce the untrained employee ratio.
+3. **Replicate Finance Department Strategies** across others, as it achieved the best score improvement per cost spent.
+4. Consider **performance-based training budget allocation** — shifting focus to high-impact departments.
+
 
