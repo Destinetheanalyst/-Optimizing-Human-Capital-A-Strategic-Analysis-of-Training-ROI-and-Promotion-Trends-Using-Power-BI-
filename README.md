@@ -17,14 +17,13 @@
 ---
 This report presents an HR analytics dashboard built using Power BI for **DYKE INTERGRATED**. The focus is to evaluate the **effectiveness of training programs**, **employee promotions**, and **performance improvements** across key departments: Finance, HR, IT, Marketing, and Sales.
 
+![page 1](https://github.com/user-attachments/assets/3a52f10a-b739-4498-ad28-9285235ded99)
 
 
 ### Data Source
 ---
 #### Dataset Description:
 The dataset, sourced from IBM's HR analytics, contains information on 1,470 employees, with 35 features including demographic, job-related, and satisfaction-related variables. The key target variable is Attrition, a binary indicator showing whether an employee has left the company.
-
-![HR Dashboard 1](https://github.com/user-attachments/assets/5fa0e2a2-d16c-4478-9f75-5ed8d2eab61c)
 
 #### Key Columns Include:
 - Demographics: Age, Gender, Marital Status, Education.
@@ -33,11 +32,10 @@ The dataset, sourced from IBM's HR analytics, contains information on 1,470 empl
 - Performance & Compensation: Monthly Income, Percent Salary Hike, Stock Option Level, Performance Rating.
 - Work-Life Balance: Work Life Balance, OverTime, Distance from Home.
 
-  
 
 ### Tools
 ---
-Excel: Used for data aggregation, and analysis. -[Download_here](https://microsoft.com)
+Power BI: Used for data aggregation, and analysis. -[Download_here](https://microsoft.com)
 
 Power Query: for data cleaning and proper formatting.
 -[Download_here](https://microsoft.com)
@@ -114,7 +112,8 @@ The dataset was extracted from IBM analytics platform.
 
 ---
   
-![HR Dashboard 2](https://github.com/user-attachments/assets/d0a23232-69c6-4ab2-99f6-b7d85266eb40)
+![p2](https://github.com/user-attachments/assets/b2d5aaa6-70aa-4b46-b6b2-80547fe701ed)
+
 
 #### Performance Overview
 
