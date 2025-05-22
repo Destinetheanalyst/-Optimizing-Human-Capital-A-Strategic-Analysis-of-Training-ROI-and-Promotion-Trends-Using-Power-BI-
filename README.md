@@ -145,10 +145,6 @@ The dataset was extracted from IBM analytics platform.
 | Sales      | 74.20               | 69.36                | −4.84       |
 
 📌 **Insight**: While most departments showed improvement, **Marketing and Sales experienced post-training performance drops**, highlighting a **potential mismatch in training content or execution**.
-
-
-
-  
   
 ### Recommendations
 ---
