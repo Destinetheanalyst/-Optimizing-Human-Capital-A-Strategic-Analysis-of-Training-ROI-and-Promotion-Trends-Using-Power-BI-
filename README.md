@@ -1,4 +1,4 @@
-# HR-Training-effective-
+# Optimizing Human Capital: A Strategic Analysis of Training ROI and Promotion Trends Using Power BI
 
 ### Table of Contents
 
@@ -27,11 +27,11 @@ This report presents an HR analytics dashboard built using Power BI for **DYKE I
 The dataset, sourced from IBM's HR analytics, contains information on 1,470 employees, with 35 features including demographic, job-related, and satisfaction-related variables. The key target variable is Attrition, a binary indicator showing whether an employee has left the company.
 
 #### Key Columns Include:
-- Demographics: Age, Gender, Marital Status, Education.
-- Job-related: Job Role, Department, Years at Company, Job Level.
-- Satisfaction Metrics: Job Satisfaction, Environment Satisfaction, Relationship Satisfaction.
-- Performance & Compensation: Monthly Income, Percent Salary Hike, Stock Option Level, Performance Rating.
-- Work-Life Balance: Work Life Balance, OverTime, Distance from Home.
+- **Promotion Rate**: % of employees promoted in each department.
+- **Training Participation Rate**: % of employees who received training.
+- **Score Improvement**: Change in test scores after training.
+- **Training Cost Efficiency**: Cost per promoted employee vs. total cost.
+- **Departmental Comparison**: Ranking departments by improvement score and cost-effectiveness.
 
 
 ### Tools
@@ -43,45 +43,79 @@ Power Query: for data cleaning and proper formatting.
 
 ### Exploratory Data Analysis
 ---
-EDA involved exploring the HR data to answer key questions such as:
 
-- Total number of staff members.
-- Total number of current staff members.
-- Average satisfaction level of employees in each department.
-- Number of employees per business travel.
-- Performance level of each staff.
-- Number of employees who left the company in each department (Attrition & Attrition Rate).
-- Gender count of employee.
-- Age band of employee.
+#### Training Participation
+- Which departments have the highest/lowest training participation rates?
+- What percentage of employees attended training vs. didn't?
+
+#### Score Analysis
+- What's the average pre/post-training score difference across departments?
+- How many employees showed score regression after training?
+
+#### Promotion Correlation
+- What percentage of trained employees received promotions vs. non-trained?
+- Which department shows the strongest correlation between training and promotions?
+
+#### Cost Analysis
+- What's the total training investment per department?
+- What's the average cost per promoted employee in trained vs. non-trained groups?
+
 
 
 
 ### Data Analysis Process
 ---
-#### Step 1: Data Collection.
-The dataset was extracted from IBM analytics platform.
+This section outlines the full process followed in conducting the HR analysis for DYKE INTERGRATED, with a focus on evaluating the effectiveness of employee training programs and promotion outcomes.
 
-#### Step 2: Data Cleaning/Preparation.
- In the initial data preparation phase, we performed the following tasks using Excel and Power Query:
-  1. Data loading and inspection.
-  2. Handling missing values.
-  3. Data cleaning and formatting.
+---
 
-#### Step 3: Data Aggregation.
-- Used Excel Pivot Tables to summarise data for various factors.
-- Summarized data using Excel Pivot Tables for Employee Overview.
-- Calculated attrition rate by comparing the numbers for different factors.
+#### 1. Data Collection
+- **Source**: HR database of DYKE INTERGRATED.
+- **Format**: Excel/CSV datasets.
+- **Content**:
+  - Employee IDs, departments, and training participation.
+  - Pre- and post-training assessment scores.
+  - Promotion status and training costs.
 
-#### Step 4: Data Analysis.
-- Analysed average satisfaction levels and categorised them into Very Satisfied, Satisfied, Very Dissatisfied and Dissatisfied,
-- Evaluated the correlation between employee satisfaction levels, performance levels, business travels and total working years.
-- Examined employee count and attrritio count across departments.
--  Assessed attrition per job role, educational levels, age bands and gender.
+#### 2. Data Cleaning & Preparation
+- Checked for missing values (e.g., missing scores or promotion flags).
+- Removed duplicate records to ensure unique employee entries.
+- Converted categorical fields (e.g., "Yes"/"No" for training participation) to standard format.
+- Standardized numeric fields such as scores and training costs.
 
-#### Step 5: Visualisation & Insights
-- Created pivot tables and charts to visualise trends.
-- Derived insights to support HR decision-making, such as potential areas for employee engagement improvements, gender and age bands trends.
+#### 3. Exploratory Data Analysis (EDA)
+- Used Power BI to create initial visuals and summaries.
+- Identified trends across departments regarding:
+  - Promotion rates.
+  - Average score improvements.
+  - Total training cost.
+- Calculated basic statistics:
+  - Promotion percentage = (Promoted Employees / Total Employees) × 100
+  - Average improvement score = Post-training − Pre-training
+  - Department-wise training coverage
 
+#### 4. Data Visualization (Power BI)
+- Built interactive dashboards for:
+  - **Promotion Overview**: Training cost vs. promotion, departmental promotion breakdown.
+  - **Performance Overview**: Score comparisons (before vs. after), trained vs. untrained distribution.
+- Used visual elements:
+  - Bar charts for score comparisons.
+  - Pie charts for training participation.
+  - Tables for departmental performance summaries.
+
+#### 5. Insight Generation
+- Identified departments with best and worst training outcomes.
+- Highlighted finance department as most efficient (highest improvement with moderate cost).
+- Observed drop in post-training performance in Marketing and Sales.
+- Discovered mismatch between training investment and promotion outcomes (71.5% of budget went to non-promoted employees).
+
+#### 6.  Reporting & Interpretation
+- Documented all findings in a structured markdown report.
+- Provided strategic recommendations to the HR department:
+  - Reassess training content and alignment.
+  - Optimize training budget distribution.
+  - Evaluate training ROI based on promotions and performance.
+  - Expand training coverage in undertrained departments.
   
 
 ### Results
